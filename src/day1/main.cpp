@@ -69,8 +69,8 @@ int main()
     }
     
     const ElfScore top1 = p_queue.top();
-    std::cout << "Elf numero " << top1.number << " is the big boss with " << top1.score << " calories!\n";
     p_queue.pop();
+    std::cout << "Elf numero " << top1.number << " is the big boss with " << top1.score << " calories!\n";
     
     const ElfScore top2 = p_queue.top();
     p_queue.pop();
