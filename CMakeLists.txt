@@ -36,7 +36,7 @@ function(create_day n)
 endfunction()
 
 ########################################################################################################################
-set(DAY_TODAY 2)
+set(DAY_TODAY 3)
 
 foreach(I_DAY RANGE 1 ${DAY_TODAY})
     create_day(${I_DAY})
